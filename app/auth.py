@@ -24,7 +24,7 @@ def register():
     user = User(
             nombre=nombre,
             email=email,
-            password_hash=generate_password_hash(password),
+            password=generate_password_hash(password),
             rol_id=1,
             dni=dni
         )
